@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mounika Baditha</title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/coding-07.jpg");
+            background-size: cover;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: white;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Profile Styling */
+        .profile {
+            display: flex;
+            align-items: center;
+            margin: 2rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 2rem;
+        }
+
+        .details {
+            color: #fff;
+        }
+
+        /* Objective Styling */
+        .objective {
+            margin: 2rem;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        /* Academics Styling */
+        .academics {
+            margin: 2rem;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .academics h2 {
+            color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        th, td {
+            padding: 0.5rem;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Strengths and Interests Styling */
+        .strengths-interests {
+            margin: 2rem;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .strengths h3,
+        .interests h3 {
+            color: #fff;
+        }
+
+        .strengths ul,
+        .interests ul {
+            list-style: disc;
+            margin-left: 2rem;
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 1rem; /* Reduce padding for smaller screens */
+            }
+
+            .profile {
+                flex-direction: column; /* Stack the profile details on top of the image */
+                text-align: center;
+                margin: 1rem 0; /* Adjust margin for spacing */
+            }
+
+            .profile img {
+                margin-right: 0; /* Remove margin for the image */
+                margin-bottom: 1rem; /* Add margin at the bottom */
+            }
+
+            .details {
+                margin: 1rem 0;
+            }
+
+            .academics table {
+                font-size: 5px;
+            }
+
+            .strengths, .interests {
+                margin: 1rem 0;
+            }
+
+            .strengths ul, .interests ul {
+                margin-left: 1rem;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="content">
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="projects.html">Projects and Internships</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="certificate.html">certifications</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="profile">
+            <img src="C:\Users\m durga prasad\OneDrive\Documents\ecommerce2\m.jpg" alt="Mounika Baditha">
+            <div class="details">
+                <h1>Mounika Baditha</h1>
+                <p>Mobile No.: (+91) 6309565116</p>
+                <p>Email: mounikabaditha00@gmail.com</p>
+                <p>Address: D.no- 3c-13-2, Western Street, Eluru, Andhra Pradesh</p>
+                <p>LinkedIn: <a href="www.linkedin.com/in/mounika-baditha-03748020b">www.linkedin.com/in/mounika-baditha-03748020b</a></p>
+                <p>GitHub: <a href="https://github.com/mounikabaditha">https://github.com/mounikabaditha</a></p>
+            </div>
+        </div>
+        <div class="objective">
+            <h2>Career Objective</h2>
+            <p>To build a long term career with always being on the learning edge and enhance my educational and professional skills in a stable and dynamic workplace in a challenging position.</p>
+        </div>
+        <div class="academics">
+            <h2>Academics</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institute</th>
+                    <th>Board/University</th>
+                    <th>CGPA</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>B.Tech- CSE</td>
+                    <td>Eluru college of engineering and technology</td>
+                    <td>JNTUK</td>
+                    <td>8.0</td>
+                    <td>2020-24</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Sri Chaitanya jr college(Eluru)</td>
+                    <td>Inter Board</td>
+                    <td>9.8</td>
+                    <td>2018-20</td>
+                </tr>
+                <tr>
+                    <td>S.S.C</td>
+                    <td>Sri Shiridi Sai E.M High School</td>
+                    <td>State Board</td>
+                    <td>9.5</td>
+                    <td>2018</td>
+                </tr>
+            </table>
+        </div>
+        <div class="strengths-interests">
+            <h2>Strengths and Interests</h2>
+            <div class="strengths">
+                <h3>Strengths:</h3>
+                <ul>
+                    <li>Creativity</li>
+                    <li>Strong motivational and leadership skills</li>
+                    <li>Ability to work as an individual as well as in a group</li>
+                    <li>Highly motivated and eager to learn new things</li>
+                    <li>Positive Thinking</li>
+                </ul>
+            </div>
+            <div class="interests">
+                <h3>Interests:</h3>
+                <ul>
+                    <li>Dance</li>
+                    <li>Listening to TED Conferences</li>
+                </ul>
+            </div>
+        </div>
+
+    
+    </section>
+    </div>
+    <!-- Add Projects, Internships, and Skills sections similarly -->
+</body>
+</html>

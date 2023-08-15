@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mounika Baditha</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/coding-07.jpg");
+            background-size: cover;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: white;
+        }
+
+        nav {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .projects-internships {
+            padding: 2rem 0;
+        }
+
+        .project {
+            display: flex;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+            border-radius: 10px;
+            overflow: hidden; /* To ensure rounded corners */
+        }
+
+        .project-details {
+            flex: 1;
+            padding-right: 1rem;
+        }
+
+        .project-screenshot {
+            flex: 1;
+            max-width: 300px;
+            overflow: hidden; /* To ensure screenshot fits within the box */
+        }
+
+        .project-screenshot img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html">Projects and Internships</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certificate.html">Certifications</a></li>
+            </ul>
+        </nav>
+        <section class="projects-internships">
+           <center><h2>Projects and Internships</h2></center>
+            
+            <!-- Project 1 -->
+            <div class="project">
+                <div class="project-details">
+                    <h3>Web Development Virtual Internship</h3>
+                    <p>Stop by Worinwell | Aug 2022 - Sep 2022</p>
+                    <p><strong>Project 1:</strong> E-commerce Website</p>
+                    <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+                    <p><strong>Role:</strong> Developed the front-end design, enabling users to browse and purchase things online.</p>
+                </div>
+                <div class="project-screenshot">
+                    <img src="C:\Users\m durga prasad\OneDrive\Pictures\shopping.png" alt="Project 1 Screenshot">
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project">
+                <div class="project-details">
+                    <h3>Web Development Virtual Internship</h3>
+                    <p>Stop by Worinwell | Aug 2022 - Sep 2022</p>
+                    <p><strong>Project 2:</strong> Job Searching Website</p>
+                    <p><strong>Technologies used:</strong> HTML, CSS, JavaScript,PHP</p>
+                    <p><strong>Role:</strong> Developed the front-end and back-end design, enabling users to browse and apply the jobs online.</p>
+                </div>
+                <div class="project-screenshot">
+                    <img src="project2-screenshot.jpg" alt="Project 2 Screenshot">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-details">
+                <h3>Cybersecurity Virtual Internship</h3>
+                <p>APSCHE, EDUNET Foundation By IBM SKILL BUILD | May 2023-Jul 2023</p>
+                <p><strong>Project:</strong> Dos Attack Using NS2</p>
+                <!-- Add more content if needed -->
+            </div>
+            <div class="project-screenshot">
+                <img src="C:\Users\m durga prasad\OneDrive\Pictures\cyber1.png" alt="Project 2 Screenshot">
+            </div>
+            </div>
+            <div class="project">
+                <div class="project-details">
+                <h3>Online Feedback System</h3>
+                <p>This application is used bythe colleges to take feedback from students. </p>
+                <p><strong>Project:</strong> It is developed by using HTMl,CSS,Java Script,Java Server pages and SQL</p>
+                <!-- Add more content if needed -->
+            </div>
+            <div class="project-screenshot">
+                <img src="C:\Users\m durga prasad\OneDrive\Pictures\online.png" alt="Project 2 Screenshot">
+            </div>
+            </div>
+            
+            <!-- Add more projects and internships similarly -->
+            
+        </section>
+    </div>
+</body>
+</html>
